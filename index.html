@@ -30,7 +30,7 @@
 		var _index = 0;
 		$('#loadingMore').on('click', function() {
 			if(_index < 1001) {
-				var imgTemplate = '<img class="showImg" src="http://' + arr[_index] + '"/><img class="showImg" src="http://' + arr[_index + 1] + '"/>';
+				var imgTemplate = '<img class="showImg" src="//' + arr[_index] + '"/><img class="showImg" src="//' + arr[_index + 1] + '"/>';
 				$('.imgWrap').append($(imgTemplate));
 				_index += 2;
 			}
